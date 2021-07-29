@@ -1,5 +1,6 @@
 #Made by Social404
 from config import prefix
+from config import token
 import keep_alive
 import discord
 from discord.ext import commands
@@ -205,10 +206,10 @@ async def info(ctx, member: discord.Member=None):
         await channel.send("**The user's name is: {}**".format(member.name) + "\n**The user's ID is: {}**".format(member.id) + "\n**The user's current status is: {}**".format(member.status) + "\n**The user's highest role is: {}**".format(member.top_role) + "\n**The user joined at: {}**".format(member.joined_at))
     print("Action completed: User Info")
 #############################
-my_secret = os.environ['TOKEN']
+
 
 keep_alive.keep_alive()
 
 
-client.run(my_secret)
+client.run(token)
 # Place your Bot's token here
