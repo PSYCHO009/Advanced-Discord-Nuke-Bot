@@ -1,6 +1,0 @@
-keep_alive
-discord
-asyncio
-time
-random
-os
