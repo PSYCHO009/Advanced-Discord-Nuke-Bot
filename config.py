@@ -1,1 +1,2 @@
-prefix = 's!'
+prefix = 'prefix'
+token = "bots token"
